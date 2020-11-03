@@ -1,0 +1,70 @@
+命名不要以数字开始
+
+命名：根据每块元素的主题 或者功能、在页面上的位置
+
+命名的几种格式：
+
+1.全部小写 .mainleftbox{}
+2.每个单词中间以“_”隔开 #main_left_box{}  #main-left-box{}
+
+3.驼峰命名 从第二个单词开始每个单词的首字母大写  #mainLeftBox{}
+
+注意.包含选择器层级要控制，能找到这个元素并且不影响其他元素即可
+
+
+二、参考名字：
+
+利用模块，位置，和连字符结合（推荐使用，xx换成当前模块主体名称，如（time_list,news_tit等）
+
+顶部导航：top_nav      
+左边导航：left_nav      
+右边导航：right_nav   side_nav
+底部链接：footer_link  
+XX列表：xx_list        
+xx列表项：xx_item       
+xx标题：xx_hd          
+xx主体：xx_bd 
+xx标题：xx_title       
+xx主体：xx_content
+文本：xx_txt           
+描述：xx_desc      
+信息：xx_info
+价钱：price   
+数字:num
+
+三、常用类名：
+
+登录条：loginBar         标志：logo                侧边栏：sideBar 
+广告：banner             导航：nav                 子导航：subNav
+菜单：menu                子菜单：subMenu           搜索：search
+滚动：scroll              页面主体：main            内容：content 
+标签页：tab               文章列表：list            提示信息：msg
+小技巧：tips              栏目标题：title            加入：joinus
+指南：guild               服务：service              热点：hot
+新闻：news                按钮：btn                  投票：vote       
+状态：status               
+合作伙伴：partner       
+外　套：wrap
+商　标：label
+标　题：title 
+顶导航：topnav 
+左导航：leftsideBar 
+右导航：rightsideBar 
+横幅：banner     
+菜单内容1： menu1Content 
+菜单容量：　menuContainer 
+子菜单：　　submenu 
+边导航图标：sidebarIcon 
+注释：　　　note 
+版    权：copyRight
+友情链接：friendLink   
+容器：container
+页脚：footer 
+
+当前：current  
+激活：acitve 
+
+
+功能区：
+ shop(如购物车，收银台) 搜索：search  登陆：login   注册：regsiter   下载：download 
+面包屑：breadCrumb(即页面所处位置导航提示) 
