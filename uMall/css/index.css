@@ -330,6 +330,96 @@
     font:14px/23px "微软雅黑";
     color: #333333;
 }
+.list .container .rank{
+    width: 390px;
+    height: 430px;
+    background-color:#ffffff;
+    margin: 20px 9px 0 0;
+}
+.list .container .rank > h3{
+    padding:15px 0 13px 20px;
+    background-color: #fdf6f6;
+    font: bold 18px/1 "微软雅黑";
+    color: #db5757;
+    position: relative;
+}
+.list .container .rank > h3 > em{
+    display: block;
+    width: 7px;
+    height: 21px;
+    background-color: #db5757;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10.5px;
+ }
+.list .container .rank > h3 > a{
+   font: normal 14px/1 "微软雅黑";
+   padding-left: 245px;
+   color: #84848b;
+}
+.list .container .rank > h3 > a > i{
+    vertical-align: middle;
+ }
+ .list .container .rank .ranknav{
+     margin: 0 20px;
+     border-bottom: 1px solid #f2f2f2;
+     
+ }
+ .list .container .rank .ranknav ul > li{
+     width: 50px;
+     height: 24px;
+     line-height: 24px;
+     /* background-color: yellow; */
+     float: left;
+     text-align: center;
+     margin: 7px 30px 7px 0;
+     border-radius: 12px;
+ }
+ .list .container .rank .ranknav ul > li:hover{
+     background-color: #db5757;
+ }
+ .list .container .rank .ranknav ul > li > a{
+     color: #372e41;
+     font: 12px/1 "微软雅黑";
+ }
+ .list .container .rank .ranknav ul > li > a:hover{
+     color: #ffffff;
+ }
+ .list .container .rank .ranklist{
+     /* border: 1px solid aqua; */
+     position: relative;
+ }
+ .list .container .rank .ranklist .img{
+     margin: 20px 10px 0 20px;
+ }
+ .list .container .rank .ranklist .img > a > img{
+     width:100px;
+     height: 91px;
+ }
+ .list .container .rank .ranklist .imgdesc > p{
+     color:#494949;
+     font:14px/20px "微软雅黑";
+     padding:30px 30px 18px 0;
+ }
+ .list .container .rank .ranklist .imgdesc > strong{
+    font: 14px/1 "微软雅黑";
+    color:#DF8F82
+ }
+ .list .container .rank .ranklist .salebar{
+     width:129px;
+     height: 20px;
+     /* line-height: 20px; */
+     background-color: #FCE3DE;
+     border-radius: 10px;
+     position: absolute;
+     right:20px;
+     bottom:10px;
+     text-align:center;
+     font:14px/20px "微软雅黑";
+     color:#E1808F;
+
+ }
 
 
 
