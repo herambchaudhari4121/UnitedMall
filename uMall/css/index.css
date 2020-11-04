@@ -8,6 +8,7 @@
 /* 顶部 */
 .topbg{
     background-color: #f7f7f7;
+    min-width: 1190px;
 }
 .topnav{
     height: 36px;
@@ -41,6 +42,7 @@
 /* 头部 */
 .headerbg{
     background-color: #fff;
+    min-width: 1190px;
 }
 .headernav .container{
     /* border: 1px solid #ff6600; */
@@ -77,9 +79,14 @@
     height: 40px;
     color: #fff7f5;
     font:16px/40px "微软雅黑";
-    text-align: center;
+    /* text-align: center; */
     background-color: #ff6501;
     float: left;
+}
+.classificationnav .container > h3 > em{
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 15px;
 }
 .classificationnav .container .rightnav > li {
     float: left;
@@ -124,6 +131,7 @@
 /* banner轮播广告图 */
 .bannerbg{
     background-color:#F53E52;
+    min-width: 1190px;
 }
 .main .container .banner{
     position: relative; 
@@ -143,6 +151,7 @@
     width: 30px;
     height:73px;
     line-height: 73px;
+    text-align: center;
     background-color: rgba(0,0,0,0.3);
     position: absolute;
     right:0; 
@@ -151,9 +160,100 @@
 }
 .main .container .banner .leftbtn > em,
 .main .container .banner .rightbtn > em{
-    /* text-align: center;  */
     vertical-align: middle; 
-    margin-left: 6px;
+    /* margin-left: 6px; */
     font-size: 20px;
     color: #fffffe;
 }
+.listbg{
+    background-color: #f2f2f2;
+    min-width: 1190px;
+}
+.list .container .limitedtime{
+    width: 790px;
+    height: 345px;
+    background-color: #ffffff;
+    margin-top: 25px; 
+}
+.list .container{
+    overflow: hidden;
+}
+
+.list .container .limitedtime .img{
+    margin: 8px 0 0 12px;
+}
+.list .container .limitedtime .time>em{
+    font:12px/1 "微软雅黑";
+    color: #959595;
+    float:left;
+    padding: 20px 9px 0 7px;
+    
+}
+.list .container .limitedtime .time > ul >li{
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #323232;
+  border-radius: 3px;
+  float: left;
+  margin:10px 10px 0 9px;
+}
+.list .container .limitedtime .time > ul >li > strong{
+    color: #ffffff;  
+    font-size: 17px;
+  }
+.list .container .limitedtime > p{
+   font: 14px/24px "微软雅黑";
+   color: #060005; 
+   /* margin-top:15px;
+   margin-right: 53px; */
+   margin:15px 53px 0 0;
+}
+.list .container .limitedtime .firstavenue{
+    width:136px;
+    height: 25px;
+    text-align: center;
+    color: #ffeeea;
+    font:14px/25px "微软雅黑";
+    background-color: #ff480f;
+    border-radius: 12px;
+    /* margin-right: 30px; */
+    margin:15px 30px 0 0;
+}
+.list .container .limitedtime .listitem{
+    /* margin: 10px 0 0 20px; */
+    margin-left:10px;
+    /* padding-bottom: 25px; */
+}
+.list .container .limitedtime .listitem ul  li{
+    float: left;
+    margin:10px 15px 0 0;
+    
+}
+.list .container .limitedtime .listitem ul > li > a > img{
+    width: 170px;
+    height: 195px;
+    /* border: 1px solid #f36b11; */
+    
+}
+.list .container .limitedtime .listitem > ul > li > p{
+    font:14px/1 "微软雅黑";
+    color:#33342f;
+    text-indent: 8px;
+    padding:10px 0;
+}
+.list .container .limitedtime .listitem > ul > li > strong{
+   font:20px/20px "微软雅黑";
+   text-indent: 8px; 
+   color:#ff6109;
+   font-weight: bold;
+}
+.list .container .limitedtime .listitem > ul > li >span,
+.list .container .limitedtime .listitem > ul > li >.progress>span{
+    font:14px/20px "微软雅黑";
+    color: #b6b6b6;
+}
+
+
+
