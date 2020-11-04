@@ -253,6 +253,7 @@
    font-weight: bold;
 }
 .list .container .limitedtime .listitem > ul > li >span,
+.list .container .limitedtime .listitem > ul > li > del,
 .list .container .limitedtime .listitem > ul > li >.progress>span{
     font:14px/20px "微软雅黑";
     color: #b6b6b6;
