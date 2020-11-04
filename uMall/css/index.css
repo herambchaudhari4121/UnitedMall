@@ -5,7 +5,7 @@
     width: 1190px;
     margin: 0 auto;
 }
-/* 定部 */
+/* 顶部 */
 .topbg{
     background-color: #f7f7f7;
 }
@@ -26,12 +26,26 @@
     color: #666666;
     font-size: 12px;
 }
-.leftnav a{
-    padding: 0 8px 0 12px;
-}
+.topnav .container> .ulleft> li> i,
+.topnav .container> .ulright> li> i
+{
+    vertical-align: middle;
+    color: #ceccd6;
+}  
+.topnav .container> .ulleft> li> em,
+.topnav .container> .ulright> li> em{
+    vertical-align: middle;
+    color: #ef6b18;
+} 
+
 /* 头部 */
 .headerbg{
     background-color: #fff;
+}
+.headernav .container{
+    /* border: 1px solid #ff6600; */
+    /* 父子关系高度塌陷 */
+    overflow: hidden;
 }
 .headernav .container .imgu{
     padding: 35px 0;
@@ -45,9 +59,6 @@
     border: 2px solid #f36b11;
 }
 
-/* .headernav .container .search .headerlist>ul{
-   margin: 15px 0;
-} */
 .headernav .container .search .headerlist>li{
     float: left;
     padding: 14px 0;
@@ -121,6 +132,7 @@
 .main .container .banner .leftbtn{
     width: 30px;
     height:73px;
+    line-height: 73px;
     background-color: rgba(0,0,0,0.3);
     position: absolute;
     left:187px; 
@@ -130,9 +142,18 @@
 .main .container .banner .rightbtn{
     width: 30px;
     height:73px;
+    line-height: 73px;
     background-color: rgba(0,0,0,0.3);
     position: absolute;
     right:0; 
     top:210px;
     z-index: 10;
+}
+.main .container .banner .leftbtn > em,
+.main .container .banner .rightbtn > em{
+    /* text-align: center;  */
+    vertical-align: middle; 
+    margin-left: 6px;
+    font-size: 20px;
+    color: #fffffe;
 }
