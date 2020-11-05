@@ -22,16 +22,27 @@ img{
     border:none;/*去掉ie浏览器图片外面的边框*/
     vertical-align:top;/*图片对齐方式*/
 }
+/* input{
+    border:none; 
+    background-color: transparent;
+    outline: none;
+} */
 table{
     border-collapse:collapse;/*去掉表格自带间隙*/
     border-spacing:0;
+}
+textarea{
+    resize: none;
+    overflow: auto;
 }
 body{
     font-family:Arial,"微软雅黑", Helvetica, sans-serif;
     font-size:12px;
     line-height:1;
 }
-
+button{
+    border: none;
+}
 
 /*public style*/
 .clearfix{
