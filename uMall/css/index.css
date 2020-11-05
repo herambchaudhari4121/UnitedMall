@@ -536,8 +536,17 @@
 .list .container .popular .hotlist .hotlistitem .good{
     font:14px/1 "微软雅黑";
     color: #1a97e7;
-    /* padding-top:10px; */
-    /* padding-bottom: 20px; */
+}
+.list .container .imagerow{
+    width: 100%;
+    height: 100px;
+    /* background-color: #1a97e7; */
+    margin-top: 18px;
+}
+.list .container .imagerow > a> img{
+    width: 396px;
+    height: 100px;
+    margin-left: -4px;
 }
 
 
