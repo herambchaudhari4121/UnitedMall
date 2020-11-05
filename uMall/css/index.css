@@ -615,7 +615,7 @@
 }
 .list .container .inteldigit .intelnav{
     height: 46px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     line-height: 46px;
     position: relative;
 }
@@ -647,6 +647,58 @@
     left: 0;
     top:50%;
     margin-top: -10.5px;
+}
+.list .container .inteldigit .intellist .leftbg{
+    position: relative;
+}
+.list .container .inteldigit .intellist > .leftbg > img{
+    width: 188px;
+    height: 360px;
+}
+
+.list .container .inteldigit .intellist .leftbg > .leftdesc{
+    width: 162px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 260px;
+    border-radius: 0 10px 10px 0;
+}
+.list .container .inteldigit .intellist .leftbg > .leftdesc > h3{
+    font: bold 20px/1 "微软雅黑";
+    color: #fefffa;
+    padding:10px 0 0 15px;
+}
+.list .container .inteldigit .intellist .leftbg > .leftdesc > b{
+    display: inline-block;
+    font: normal 12px/1 "微软雅黑";
+    color: #fefffa;
+    padding:10px 0 0 15px;
+}
+.list .container .inteldigit .intellist > ul > li > a > img{
+    width: 115px;
+    height: 115px;
+    margin-top: 5px;
+}
+.list .container .inteldigit .intellist ul > li {
+    width:199px;
+    height: 178px;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+}
+.list .container .inteldigit .intellist ul > li > a > h3{
+    font: 16px/1 "微软雅黑";
+    color:#333333;
+    padding-top:18px;
+}
+.list .container .inteldigit .intellist ul > li > a > p{
+    font:12px/1 "微软雅黑";
+    color: #3695d5;
+    padding-top:10px;
+    
 }
 
 
