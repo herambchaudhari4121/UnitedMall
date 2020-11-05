@@ -58,7 +58,40 @@
 .headernav .container .search .input{
     width: 540px;
     height: 40px;
-    border: 2px solid #f36b11;
+    line-height: 40px;
+    display: flex;
+    border: 2px solid #f36b11;  
+}
+.headernav .container .search .input > em{
+    vertical-align: middle;
+    font-size: 25px;
+    padding-left: 10px;
+    color: #f7985a;
+}
+.headernav .container .search .input > input{
+    float: left;
+    flex: 4;
+    height: 40px;
+    border-style:none;
+    outline: none;
+    /* border: 2px solid #f36b11;  */
+    box-sizing: border-box;
+    padding-left: 10px;
+
+}
+.headernav .container .search .input > button{
+    float : right;
+    flex:1;
+    height:40px;
+    background-color: #ff6501;
+    color:#ffdfd4;
+    border-style: none;
+    outline: none;
+} 
+
+.headernav .container .search .input > button > a{
+    font-size: 18px;
+    color: #ffdfd4;
 }
 
 .headernav .container .search .headerlist>li{
