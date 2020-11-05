@@ -130,7 +130,7 @@
 
 /* banner轮播广告图 */
 .bannerbg{
-    background-color:#F53E52;
+    background-color:#E86800;
     min-width: 1190px;
 }
 .main .container .banner{
@@ -418,9 +418,10 @@
      width:100px;
      height: 91px;
  }
- .list .container .rank .ranklist .imgdesc > p{
+ .list .container .rank .ranklist .imgdesc >a{
      color:#494949;
      font:14px/20px "微软雅黑";
+     display: block;
      padding:30px 30px 18px 0;
  }
  .list .container .rank .ranklist .imgdesc > strong{
@@ -439,8 +440,33 @@
      text-align:center;
      font:14px/20px "微软雅黑";
      color:#E1808F;
-
  }
+
+.list .container .popular{
+    width: 791px;
+    height: 430px;
+    background-color: #ffffff;
+    margin: 20px 0 0 0;
+    
+}
+.list .container .popular > h3{
+    font:bold 18px/1 "微软雅黑";
+    color: #1c95e6;
+    padding: 15px 0 13px 20px;
+    background-color: #f8faf9;
+    position: relative;
+}
+.list .container .popular > h3 > em{
+    display: inline-block;
+    width: 7px;
+    height: 21px;
+    background-color: #1c95e6;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -10.5px;
+}
+
 
 
 
