@@ -283,17 +283,20 @@
     margin-left:10px;
     /* padding-bottom: 25px; */
 }
-.list .container .limitedtime .listitem ul  li{
+.list .container .limitedtime .listitem ul > li{
     float: left;
     margin:10px 15px 0 0;
-    
+    /* border: 1px solid rebeccapurple;    */
 }
+
 .list .container .limitedtime .listitem ul > li > a > img{
     width: 170px;
     height: 195px;
-    /* border: 1px solid #f36b11; */
-    
+    /* border: 1px solid #f36b11; */  
 }
+.list .container .limitedtime .listitem ul > li > a:hover img{
+    transform:scale(1.2);
+} 
 .list .container .limitedtime .listitem > ul > li > p{
     font:14px/1 "微软雅黑";
     color:#33342f;
@@ -337,12 +340,12 @@
 .list .container .dajuhui .imgbg{
     position: relative;
 }
-.list .container .dajuhui .imgbg > img{
+.list .container .dajuhui .imgbg > a >img{
     width: 355px;
     height: 178px;
     margin: 17px 20px 8px 20px;  
 }
-.list .container .dajuhui .imgbg > .napkin{
+.list .container .dajuhui .imgbg > a > .napkin{
     width: 162px;
     height: 101px;
     /* line-height: 101px; */
@@ -355,13 +358,13 @@
     background-color: #ffffff;
 
 }
-.list .container .dajuhui .imgbg > .napkin > h2{
+.list .container .dajuhui .imgbg > a > .napkin > h2{
     font: 23px/30px "微软雅黑";
 }
-.list .container .dajuhui .imgbg > .napkin > strong{
+.list .container .dajuhui .imgbg > a >.napkin > strong{
     font-size: 14px;
 }
-.list .container .dajuhui .imgbg > .napkin > strong > em{
+.list .container .dajuhui .imgbg > a >.napkin > strong > em{
     color: #fd4d52;
 }
 
@@ -372,6 +375,10 @@
     text-align: center;
     margin: 8px 0 0 14px;
     float: left;
+}
+.list .container .dajuhui .phone > ul > li:hover{
+    /* add shadow for the box */
+    box-shadow: 0 0 10px #494949;
 }
 .list .container .dajuhui .phone > ul > .huawei{
     width: 106px;
