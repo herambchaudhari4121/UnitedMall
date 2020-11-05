@@ -170,7 +170,7 @@
     position: relative; 
 }
 
-.main .container .banner .leftbtn{
+.main .container .banner > a > .leftbtn{
     width: 30px;
     height:73px;
     line-height: 73px;
@@ -180,7 +180,7 @@
     top:210px;
     z-index: 10;
 }
-.main .container .banner .rightbtn{
+.main .container .banner > a > .rightbtn{
     width: 30px;
     height:73px;
     line-height: 73px;
@@ -191,8 +191,8 @@
     top:210px;
     z-index: 10;
 }
-.main .container .banner .leftbtn > em,
-.main .container .banner .rightbtn > em{
+.main .container .banner > a > .leftbtn > em,
+.main .container .banner > a > .rightbtn > em{
     vertical-align: middle; 
     /* margin-left: 6px; */
     font-size: 20px;
