@@ -607,7 +607,8 @@
     height: 120px;
 }
 
-.list .container .inteldigit{
+.list .container .inteldigit,
+.list .container .lifelec{
     width: 590px;
     height: 410px;
     background-color: #ffffff;
@@ -620,7 +621,8 @@
     margin: 20px 0 0 0;
 }
 .list .container .inteldigit .intelnav,
-.list .container .car .carnav
+.list .container .car .carnav,
+.list .container .lifelec .lifenav
 {
     height: 46px;
     background-color: #f9f9f9;
@@ -633,8 +635,14 @@
     color:#3299cc;
     padding: 15px 10px 15px 15px;
 }
+.list .container .lifelec .lifenav > h3{
+    font: bold 18px/1 "微软雅黑";
+    color:#d56d24;
+    padding: 15px 10px 15px 15px;
+}
 .list .container .inteldigit .intelnav ul> li,
-.list .container .car .carnav ul> li{
+.list .container .car .carnav ul> li,
+.list .container .lifelec .lifenav ul> li{
     float: left;
 }
 .list .container .inteldigit .intelnav ul > .lock{
@@ -644,8 +652,12 @@
 .list .container .car .carnav ul > .carsquare{
     padding-left: 213px;
 }
+.list .container .lifelec .lifenav ul > .elec{
+    padding-left: 204px;
+}
 .list .container .inteldigit .intelnav ul > li > a,
-.list .container .car .carnav ul > li > a{
+.list .container .car .carnav ul > li > a,
+.list .container .lifelec .lifenav ul > li > a{
     font-size: 18px/46px "微软雅黑";
     color:#666666;
     padding-left: 20px;
@@ -654,8 +666,14 @@
 .list .container .car .carnav ul > li > a:hover{
     color: #3299cc;
 }
+
+.list .container .lifelec .lifenav ul > li > a:hover{
+    color: #c86c2d;
+}
+
 .list .container .inteldigit .intelnav > em,
-.list .container .car .carnav > em{
+.list .container .car .carnav > em
+{
     display: inline-block;
     width: 7px;
     height: 21px;
@@ -665,22 +683,35 @@
     top:50%;
     margin-top: -10.5px;
 }
-
+.list .container .lifelec .lifenav > em{
+    display: inline-block;
+    width: 7px;
+    height: 21px;
+    background-color:#c86c29;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -10.5px;
+}
 .list .container .inteldigit .intellist .leftbg,
-.list .container .car .carlist .leftbg{
+.list .container .car .carlist .leftbg,
+.list .container .lifelec .lifelist .leftbg{
     position: relative;
 }
 .list .container .inteldigit .intellist > .leftbg > img,
-.list .container .car .carlist > .leftbg > img{
+.list .container .car .carlist > .leftbg > img,
+.list .container .lifelec .lifelist > .leftbg > img{
     width: 188px;
     height: 360px;
 }
 
 .list .container .inteldigit .intellist .leftbg > .leftdesc,
-.list .container .car .carlist .leftbg > .leftdesc{
+.list .container .car .carlist .leftbg > .leftdesc,
+.list .container .lifelec .lifelist > .leftbg > .leftdesc
+{
     width: 162px;
     height: 60px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     z-index: 1;
     position: absolute;
     left: 0;
@@ -688,26 +719,31 @@
     border-radius: 0 10px 10px 0;
 }
 .list .container .inteldigit .intellist .leftbg > .leftdesc > h3,
-.list .container .car .carlist .leftbg > .leftdesc > h3{
+.list .container .car .carlist .leftbg > .leftdesc > h3,
+.list .container .lifelec .lifelist .leftbg > .leftdesc > h3{
     font: bold 20px/1 "微软雅黑";
     color: #fefffa;
     padding:10px 0 0 15px;
 }
 .list .container .inteldigit .intellist .leftbg > .leftdesc > b,
-.list .container .car .carlist .leftbg > .leftdesc > b{
+.list .container .car .carlist .leftbg > .leftdesc > b,
+.list .container .lifelec .lifelist .leftbg > .leftdesc > b
+{
     display: inline-block;
     font: normal 12px/1 "微软雅黑";
     color: #fefffa;
     padding:10px 0 0 15px;
 }
 .list .container .inteldigit .intellist > ul > li > a > img,
-.list .container .car .carlist > ul > li > a > img{
+.list .container .car .carlist > ul > li > a > img,
+.list .container .lifelec .lifelist > ul > li > a > img{
     width: 115px;
     height: 115px;
     margin-top: 5px;
 }
 .list .container .inteldigit .intellist ul > li, 
-.list .container .car .carlist ul > li{
+.list .container .car .carlist ul > li,
+.list .container .lifelec .lifelist ul > li{
     width:199px;
     height: 178px;
     border-right: 1px solid #f2f2f2;
@@ -715,13 +751,15 @@
     text-align: center;
 }
 .list .container .inteldigit .intellist ul > li > a > h3,
-.list .container .car .carlist ul > li > a > h3{
+.list .container .car .carlist ul > li > a > h3,
+.list .container .lifelec .lifelist ul > li >a > h3{
     font: 16px/1 "微软雅黑";
     color:#333333;
     padding-top:18px;
 }
 .list .container .inteldigit .intellist ul > li > a > p,
-.list .container .car .carlist ul > li > a > p{
+.list .container .car .carlist ul > li > a > p,
+.list .container .lifelec .lifelist ul > li >a > p{
     font:12px/1 "微软雅黑";
     color: #3695d5;
     padding-top:10px;
