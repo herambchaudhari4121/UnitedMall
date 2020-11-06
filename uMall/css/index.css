@@ -778,6 +778,12 @@
     height: 115px;
     margin-top: 5px;
 }
+.list .container .inteldigit .intellist ul, 
+.list .container .car .carlist ul,
+.list .container .lifelec .lifelist ul,
+.list .container .furniture .furlist ul{
+    margin-left: 188px;
+}
 .list .container .inteldigit .intellist ul > li, 
 .list .container .car .carlist ul > li,
 .list .container .lifelec .lifelist ul > li,
@@ -815,6 +821,66 @@
     color:#b85744;
     padding-top:10px;
 }
+
+.list .container .recommend > h3{
+    font: bold 18px/1 "微软雅黑";
+    color:#010200;
+    padding: 20px 0 15px 10px;
+    position: relative;
+}
+.list .container .recommend > h3 >em{
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: #fd941e;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.list .container .recommend .recommendlist{
+    background-color: #fff;
+    /* width:1190px;
+    height: 1360px; */
+}
+.list .container .recommend > .recommendlist> ul > li{
+    width: 235px;
+    height: 340px;
+    border:1px solid #f2f2f2;
+    border-left-style: none;
+    /* text-align: center; */
+}
+.list .container .recommend > .recommendlist> ul > li:hover{
+    border: 1px solid #DF1A11;
+    /* text-decoration: underline; */
+}
+.list .container .recommend .recommendlist > ul > li > a>.recommendimg{
+    margin: 20px 20px 0 20px;
+    
+}
+.list .container .recommend .recommendlist > ul > li > a> .recommendimg> img{
+    width:200px;
+    height: 200px;
+}
+.list .container .recommend .recommendlist > ul > li > a > .desc{
+    font:12px/20px "微软雅黑";
+    color:#101010;
+    padding:20px 0 0 20px;
+}
+.list .container .recommend .recommendlist > ul > li > a > .desc:hover{
+    text-decoration: underline;
+}
+.list .container .recommend .recommendlist > ul > li > a > .price{
+    font:bold 16px/1 "微软雅黑";
+    color:#f8750d;
+}
+.list .container .recommend .recommendlist > ul > li > a > .price:hover{
+    text-decoration: underline;
+}
+.list .container .recommend .recommendlist > ul > li > a > .price > .price1{
+    font-size:12px;
+    padding-left:20px;
+}
+
 
 
 
