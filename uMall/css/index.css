@@ -670,17 +670,17 @@
 }
 
 .list .container .inteldigit .intelnav ul > .lock{
-    padding-left:100px;
+    padding-left:120px;
 }
 
 .list .container .car .carnav ul > .carsquare{
-    padding-left: 213px;
+    padding-left: 233px;
 }
 .list .container .lifelec .lifenav ul > .elec{
-    padding-left: 204px;
+    padding-left: 200px;
 }
 .list .container .furniture .furnav ul > .crazy{
-    padding-left: 202px;
+    padding-left: 200px;
 }
 
 .list .container .inteldigit .intelnav ul > li > a,
@@ -909,6 +909,34 @@
     font: normal 20px/1 "微软雅黑";
     color:#c9c9cb;
     padding-top: 15px;
+}
+.footer{
+    height: 356px;
+    background-color: #333333;
+    color:#88888A;
+    overflow: hidden;
+}
+.footer .comment{
+    width: 100px;
+    height: 233px;
+    /* border:1px solid #ffffff;  */
+    margin:17px 0 0 88px;
+    text-align: left;
+}
+.footer .active{
+    margin-left: 335px;
+}
+.footer .comment > dl > dt {
+    font: 18px/50px "微软雅黑";
+}
+.footer .comment > dl > .first{
+    margin-top:3px;
+}
+.footer .comment > dl > dd{
+    font: 14px/30px "微软雅黑";
+}
+.footer > hr{
+   margin-top: 0;
 }
 
 
