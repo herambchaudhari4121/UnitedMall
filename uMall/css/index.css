@@ -901,6 +901,15 @@
     background-position:-670px -288px;
     margin-left: 10px;
 }
+.list .listpadding{
+    height: 100px;
+    text-align: center;
+}
+.list .listpadding > h3{
+    font: normal 20px/1 "微软雅黑";
+    color:#c9c9cb;
+    padding-top: 15px;
+}
 
 
 
