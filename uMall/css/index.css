@@ -202,6 +202,38 @@
     background-color: #f2f2f2;
     min-width: 1190px;
 }
+.list{
+    position: relative;
+}
+.list .leftnav{
+    width:70px;
+    height: 195px; 
+    background-color:#f8f8f8;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+}
+.list .leftnav > ul > li{
+    line-height: 30px;
+    padding-left:7px;
+    border:1px solid #e8e8e8;
+    margin-top:-1px;
+}
+.list .leftnav > ul > .top{
+    line-height: 40px;
+    margin-top:-1px;
+}
+.list .leftnav > ul > li > a{
+    font:14px/1 "微软雅黑";
+    color: #333333;
+}
+.list .leftnav > ul > li:hover{
+    background-color: #ff6600;
+}
+.list .leftnav > ul > li:hover a{
+    color: #ffffff;
+}
+
 .list .container .limitedtime{
     width: 790px;
     height: 345px;
