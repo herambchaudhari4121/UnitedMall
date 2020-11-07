@@ -682,29 +682,14 @@
 .list .container .lifelec .lifenav ul> li,
 .list .container .furniture .furnav ul > li{
     float: left;
+    margin-right: 20px;
 }
-
-.list .container .inteldigit .intelnav ul > .lock{
-    padding-left:120px;
-}
-
-.list .container .car .carnav ul > .carsquare{
-    padding-left: 233px;
-}
-.list .container .lifelec .lifenav ul > .elec{
-    padding-left: 200px;
-}
-.list .container .furniture .furnav ul > .crazy{
-    padding-left: 200px;
-}
-
 .list .container .inteldigit .intelnav ul > li > a,
 .list .container .car .carnav ul > li > a,
 .list .container .lifelec .lifenav ul > li > a,
 .list .container .furniture .furnav ul > li > a{
     font-size: 18px/46px "微软雅黑";
     color:#666666;
-    padding-left: 20px;
 }
 .list .container .inteldigit .intelnav ul > li > a:hover,
 .list .container .car .carnav ul > li > a:hover{
