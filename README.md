@@ -3,6 +3,7 @@ A super store website(pc) which uses html and css
 
 ### Main Technologies
 
+
 ####  Box Model
 
 The box model sees elements in an HTML page as a rectangular box, a container for content. Each rectangle is made up of elements content, padding, border and margin.

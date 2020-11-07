@@ -145,9 +145,6 @@
     line-height: 30px;
     text-indent: 10px;
 }
-.classificationnav .container .sidenav>li:hover{
-   background-color: #ffffff;
-}
 .classificationnav .container .sidenav>li>a{
     color: #ffffff;
     font-size: 13px;
@@ -276,20 +273,6 @@
     color: #ffffff;
     font-size: 28px;
 }
-/* .list .container .limitedtime .timeline .time > ul >li{
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  text-align: center;
-  background-color: #323232;
-  border-radius: 3px;
-  float: left;
-  margin:10px 10px 0 9px;
-}
-.list .container .limitedtime .timeline .time > ul >li > strong{
-    color: #ffffff;  
-    font-size: 17px;
-  } */
 .list .container .limitedtime > .timeline> p{
    font: 14px/24px "微软雅黑";
    color: #060005; 
@@ -326,8 +309,8 @@
     height: 195px;
     /* border: 1px solid #f36b11; */  
 }
-.list .container .limitedtime .listitem ul > li > a:hover img{
-    transform:scale(1.2);
+.list .container .limitedtime .listitem ul > li:hover{
+    box-shadow: 0 0 10px #acacac;
 } 
 .list .container .limitedtime .listitem > ul > li > p{
     font:14px/1 "微软雅黑";
